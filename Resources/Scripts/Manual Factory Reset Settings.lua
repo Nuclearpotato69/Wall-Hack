@@ -1,12 +1,12 @@
 getgenv().WallHack.Visuals = {
     ESPSettings = {
         Enabled = true,
-        TextColor = "20, 90, 255",
-        TextSize = 14,
+        TextColor = "255, 10, 10",
+        TextSize = 20,
         Center = true,
         Outline = true,
         OutlineColor = "0, 0, 0",
-        TextTransparency = 0.7,
+        TextTransparency = 0.8,
         TextFont = Drawing.Fonts.Monospace, -- UI, System, Plex, Monospace
         DisplayDistance = true,
         DisplayHealth = true,
@@ -15,16 +15,16 @@ getgenv().WallHack.Visuals = {
 
     TracersSettings = {
         Enabled = true,
-        Type = 1, -- 1 - Bottom; 2 - Center; 3 - Mouse
-        Transparency = 0.7,
+        Type = 3, -- 1 - Bottom; 2 - Center; 3 - Mouse
+        Transparency = 0.8,
         Thickness = 1,
-        Color = "50, 120, 255"
+        Color = "255, 60, 30"
     },
 
     BoxSettings = {
         Enabled = true,
         Type = 1; -- 1 - 3D; 2 - 2D;
-        Color = "50, 120, 255",
+        Color = "255, 10, 10",
         Transparency = 0.7,
         Thickness = 1,
         Filled = false, -- For 2D
