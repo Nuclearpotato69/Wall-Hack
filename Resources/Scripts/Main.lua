@@ -37,7 +37,7 @@ local coroutinewrap = coroutine.wrap
 
 Environment.WrappedPlayers = {}
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Wall-Hack/main/Resources/Scripts/Manual%20Factory%20Reset%20Settings.lua"))()
+loadstring(game:HttpGet("https://https://raw.githubusercontent.com/Nuclearpotato69/Wall-Hack/main/Resources/Scripts/Manual%20Factory%20Reset%20Settings.lua"))()
 
 Environment.Crosshair.Parts = {
     LeftLine = Drawingnew("Line"),
